@@ -1,0 +1,39 @@
+.designer {
+    height: calc(100% - 15px);
+}
+
+.ribbon-button-welcome {
+    background-image: url('./welcome.png');
+    background-size: 35px 35px;
+}
+
+html,
+body {
+    overflow: hidden;
+    padding: 2rem;
+    padding-right: 15rem;
+    margin: 0;
+    height: 100%;
+}
+
+#gc-designer-container {
+    height: 100%;
+    border: solid lightgrey 1px;
+    padding: 8px;
+}
+
+
+.container {
+    position: absolute;
+    right: 2rem;
+    top: 14rem;
+    width: 20rem;
+    height: 80rem;
+    border-radius: 15px;
+    background-color: lightgrey;
+}
+
+h3 {
+   padding: 13px;
+   text-align: center;
+}
